@@ -1,7 +1,6 @@
 #RaspberryPi用のラジコン制御コード(製作2019年8月)
 #キーボード接続による制御(Bluetooth推奨)
 
-
 #必要なモジュールのインポート
 import RPi.GPIO as GPIO #モータの回転方向と速度の制御
 import wiringpi as pi  #サーボモータの回転角制御
